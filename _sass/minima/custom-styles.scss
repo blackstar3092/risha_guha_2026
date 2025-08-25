@@ -1,1 +1,418 @@
 @import "nighthawk/main";
+
+/* ===========================
+   Risha's Minima Overrides
+   =========================== */
+
+/* ---- Design Tokens ---- */
+:root {
+  --bg: #0b0c10;
+  --bg-soft: #12131a;
+  --card: #141622;
+  --text: #e6e9ef;
+  --muted: #a9b0c3;
+  --primary: #7aa2ff;   /* electric blue */
+  --secondary: #ff77e1; /* pink glow */
+  --accent: #70ffc3;    /* mint */
+  --glass: rgba(16, 18, 27, 0.6);
+  --border: rgba(255, 255, 255, 0.08);
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0,0,0,.35), 0 0 0 1px var(--border) inset;
+  --glow: 0 0 20px rgba(122,162,255,.45);
+}
+
+/* Respect user setting */
+@media (prefers-color-scheme: light) {
+  :root { /* keep site dark by design */ }
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+/* ---- Global ---- */
+html, body {
+  background:
+    radial-gradient(1200px 800px at 10% 0%, rgba(122,162,255,.10) 0, transparent 60%),
+    radial-gradient(1000px 700px at 100% 20%, rgba(255,119,225,.08) 0, transparent 60%),
+    var(--bg);
+  color: var(--text);
+}
+
+a { color: var(--primary); text-decoration: none; }
+a:hover { color: var(--secondary); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+
+/* Headings */
+h1, h2, h3 { color: var(--text); letter-spacing: .2px; }
+h1 { font-weight: 800; }
+h2 { margin-top: 2rem; }
+
+/* Paragraph rhythm */
+p, li { color: var(--text); }
+
+/* Code blocks */
+pre, code {
+  background: #0f1120;
+  border-radius: 12px;
+  color: #d7e1ff;
+}
+pre {
+  padding: 1rem 1.2rem;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  overflow: auto;
+}
+code { padding: .15rem .4rem; }
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+th, td { padding: .8rem 1rem; border-bottom: 1px solid var(--border); }
+th { text-align: left; color: var(--muted); }
+
+/* Cards (posts, sections) */
+.post, .page-content, .post-content {
+  background: var(--glass);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
+/* Hero utility if you add one */
+.hero {
+  padding: 3rem 1.5rem;
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(122,162,255,.25), rgba(255,119,225,.25)),
+    var(--glass);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow), var(--glow);
+  text-align: center;
+}
+
+/* Buttons (generic) */
+.button, .btn, button {
+  background: linear-gradient(135deg, rgba(122,162,255,.25), rgba(255,119,225,.25));
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: .6rem 1rem;
+  box-shadow: var(--shadow), var(--glow);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.button:hover, .btn:hover, button:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow), 0 0 28px rgba(122,162,255,.55);
+}
+
+/* ===========================
+   NAV: keep HTML EXACTLY SAME
+   =========================== */
+
+/* Container */
+.nav-items {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+  justify-content: center;
+  padding: .6rem .8rem;
+  margin: 0 0 1rem 0;
+
+  background: var(--glass);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+
+  box-shadow: var(--shadow), 0 0 24px rgba(122,162,255,.18);
+}
+
+/* Items */
+.nav-item, #loginArea {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .52rem .9rem;
+  border-radius: 999px;
+
+  color: var(--text);
+  font-weight: 600;
+  letter-spacing: .2px;
+
+  /* glass pill */
+  background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+  border: 1px solid var(--border);
+
+  transition: color .2s ease, background .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+
+/* Hover / active glow */
+.nav-item:hover, #loginArea:hover {
+  background: linear-gradient(135deg, rgba(122,162,255,.18), rgba(255,119,225,.14));
+  box-shadow: 0 0 0 1px rgba(122,162,255,.35) inset, 0 5px 18px rgba(0,0,0,.25),
+              0 0 22px rgba(122,162,255,.35);
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+/* Focus visibility */
+.nav-item:focus-visible, #loginArea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* Make the login feel like a CTA (no HTML change) */
+#loginArea {
+  background: linear-gradient(135deg, rgba(122,162,255,.28), rgba(255,119,225,.22));
+  box-shadow: var(--glow);
+}
+
+/* Mobile wrap */
+@media (max-width: 720px) {
+  .nav-items {
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: .5rem;
+    border-radius: 14px;
+  }
+  .nav-item, #loginArea {
+    padding: .48rem .8rem;
+    font-weight: 600;
+  }
+}
+
+/* Optional: add a subtle shadow on scroll (no JS needed if you don't want it) */
+body.scrolled .nav-items {
+  box-shadow: var(--shadow), 0 10px 30px rgba(0,0,0,.35), 0 0 28px rgba(122,162,255,.25);
+}
+
+/* ===========================
+   Post title & meta
+   =========================== */
+.post-title {
+  font-size: clamp(1.8rem, 2.5vw, 2.4rem);
+  font-weight: 800;
+  margin-bottom: .4rem;
+  text-shadow: 0 2px 18px rgba(122,162,255,.25);
+}
+.post-meta, .post-meta-title { color: var(--muted); }
+
+/* Images */
+img {
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Callout utility (optional) */
+.callout {
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: linear-gradient(135deg, rgba(112,255,195,.08), rgba(122,162,255,.10));
+  box-shadow: var(--shadow);
+}
+
+
+/* =========================
+   1) WIDEN CONTENT AREA
+   ========================= */
+.wrapper{
+  max-width: 1100px;                 /* was ~800px in Minima */
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+@media (min-width:1400px){
+  .wrapper{ max-width: 1220px; }     /* give wide screens more room */
+}
+
+/* =========================
+   3) NAV TWEAKS (LESS GLOW)
+   ========================= */
+.nav-items{
+  background: rgba(16,18,27,.45);
+  border: 1px solid rgba(255,255,255,.04); /* lighter outline */
+  box-shadow: 0 6px 18px rgba(0,0,0,.22);  /* remove big neon aura */
+}
+
+/* Make ALL nav pills consistent and calmer */
+.nav-item,
+#loginArea{
+  background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
+  border: 1px solid rgba(255,255,255,.05);
+  box-shadow: none;                   /* no inner glow by default */
+  transform: none;
+}
+
+/* Hover: subtle, not neon */
+.nav-item:hover,
+#loginArea:hover{
+  background: linear-gradient(135deg, rgba(122,162,255,.12), rgba(255,119,225,.10));
+  box-shadow: 0 4px 14px rgba(0,0,0,.18);
+  transform: translateY(-1px);
+}
+
+/* Specifically DE-emphasize the Login chip */
+#loginArea{
+  background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)) !important;
+  box-shadow: none !important;
+  opacity: .9;                        /* quieter */
+}
+#loginArea:hover{
+  background: linear-gradient(135deg, rgba(122,162,255,.10), rgba(255,119,225,.08)) !important;
+  box-shadow: none !important;
+}
+
+/* Optional: if top/bottom page borders look “outlined” */
+.site-header, .site-footer{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+/* =========================
+   REMOVE ALL BORDERS
+   ========================= */
+* {
+  border: none !important;
+}
+
+/* Post + content areas without frames */
+.post,
+.page-content,
+.post-content {
+  background: rgba(16,18,27,.35);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;        /* keep soft rounded corners */
+  box-shadow: 0 6px 18px rgba(0,0,0,.22);
+  padding: 1.5rem;
+}
+
+/* Tables (remove cell dividers too) */
+table, th, td {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* =========================
+   NAV CLEANUP
+   ========================= */
+.nav-items {
+  background: rgba(16,18,27,.45);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 6px 18px rgba(0,0,0,.22);
+  border-radius: 16px;
+  padding: .6rem .8rem;
+}
+
+/* Normal nav links (pills still look nice) */
+.nav-item {
+  padding: .5rem .9rem;
+  border-radius: 8px;
+  background: transparent;
+  box-shadow: none;
+  font-weight: 600;
+  color: var(--text);
+  transition: color .2s ease, background .2s ease;
+}
+.nav-item:hover {
+  background: rgba(255,255,255,.05);
+  color: #fff;
+}
+
+/* Make LOGIN plain text, no pill */
+#loginArea {
+  padding: 0 !important;
+  margin: 0 .5rem;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  color: var(--primary);
+  font-weight: 600;
+}
+#loginArea:hover {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+/* ===== Grid for two cards ===== */
+.glass-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Two columns on medium+ screens, stack on mobile */
+@media (min-width: 900px) {
+  .glass-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ————— GLASS CARDS ————— */
+.glass-grid{
+  display:grid;
+  gap:1.5rem;
+  margin:1rem 0 2.75rem;         /* bottom space before comments */
+}
+@media (min-width:900px){
+  .glass-grid{ grid-template-columns:1fr 1fr; }
+}
+
+/* make the cards obvious */
+.glass-panel{
+  display:block;
+  background: rgba(16,18,27,.45); /* visible against your dark bg */
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-radius:16px;
+  box-shadow: 0 10px 26px rgba(0,0,0,.28);
+  padding:1.4rem 1.6rem;
+}
+.card-lg{ padding:1.6rem 1.9rem; }
+
+/* page container shouldn’t “box” the cards */
+.page-content{ background: transparent !important; box-shadow:none !important; }
+
+/* chips + accordion (optional but nice) */
+.chip-row{ display:flex; flex-wrap:wrap; gap:.6rem; margin:.6rem 0 0; }
+.chip{ display:inline-flex; align-items:center; padding:.45rem .75rem; border-radius:999px;
+       background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+       font-weight:600; color:var(--text); text-decoration:none;
+       box-shadow: 0 4px 14px rgba(0,0,0,.18); transition: transform .15s, box-shadow .2s, background .2s; }
+.chip:hover{ transform: translateY(-1px); background: linear-gradient(135deg, rgba(122,162,255,.14), rgba(255,119,225,.10)); box-shadow: 0 6px 18px rgba(0,0,0,.22); }
+.chip.pill{ color:#fff; }
+.chip.kasm{ background: linear-gradient(135deg,#6b4bd3,#7c64de); }
+.chip.vscode{ background: linear-gradient(135deg,#d38a4b,#e39961); }
+.chip img{ display:block; border:none; filter: drop-shadow(0 2px 6px rgba(0,0,0,.25)); }
+
+.glass-accordion{ margin-top:.75rem; background: rgba(255,255,255,.02); border-radius:12px; padding:.25rem .5rem; }
+.glass-accordion summary{ cursor:pointer; list-style:none; font-weight:700; padding:.6rem .4rem; border-radius:10px; }
+.glass-accordion summary::-webkit-details-marker{ display:none; }
+.glass-accordion[open] summary{ background: rgba(255,255,255,.04); }
+.link-list{ margin:.25rem 0 .6rem; padding-left:1rem; }
+.link-list li{ margin:.25rem 0; }
+
+/* ——— extra spacing above utterances comments ——— */
+.utterances, .utterances-frame{ margin-top: 2rem !important; }
