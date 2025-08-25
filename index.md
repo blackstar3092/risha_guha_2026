@@ -4,7 +4,19 @@ title: I'm Risha Guha
 hide: true
 ---
 
-Hi! My name is Risha Guha
+<img src="{{ site.baseurl }}/images/00_rg_imgs/home.png" alt="Home">
+
+
+<h3> My Team </h3>
+
+| Role                   | Name     | Repo Location                                     | Stream                | Repo Name |
+|------------------------|----------|---------------------------------------------------|-----------------------|-----------|
+| Scrum Master           | Risha G  | github.com/blackstar3092/student                        | upstream (OCS fork)   | student   |
+| Assistant Scrum Master| Anvay V  | github.com/CyberLord09/student                    | downstream (fork)     | student   |
+| Scrummer               | Ruta S   | github.com/ruta-sir/student                      | downstream (fork)     | student   |
+| Scrummer               | Vibha M  | github.com/vibha1019/student                                   |                       |           |
+| Scrummer               | Aadi B   | github.com/aadibhat09/student                    | downstream (fork)     | student   |
+| Scrummer               | Neil C   | github.com/neil9674/student                      | downstream (fork)     | student   |
 
 ### Development Environment
 
@@ -23,22 +35,20 @@ Hi! My name is Risha Guha
     <span style="color: #FFFFFF">VSCODE</span>
 </a>
 
-<br>
+<details>
+    <summary>Sprint 1</summary>
+    <ul>
+        <li><a href="{{site.baseurl}}/sprint/1/tools">Tools Setup</a></li>
+        <li><a href="{{site.baseurl}}/sprint/1/agile">Agile Methodology: A Mermaid-Based Overview and Manifesto Evidence</a></li>
+        <li><a href="{{site.baseurl}}/sprint/1/lxd">Learning Experience Design: Feedback and Iteration</a></li>
+        <li><a href="{{site.baseurl}}/sprint/1/javascript">JavaScript Frontend Basics and AI Evidence</a></li>
+    </ul>
+</details>
 
-### Class Progress
-
-<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
-    Snake Game
-</a>
-<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
-    <span style="color: #000000">Turtle</span>
-</a>
-
-<br>
-
-<!-- Contact Section -->
-### Get in Touch
-
-> Feel free to reach out if you'd like to collaborate or learn more about our work.
-
-<p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
+<script src="https://utteranc.es/client.js"
+        repo="blackstar3092/risha_guha_2026"
+        issue-term="pathname"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
