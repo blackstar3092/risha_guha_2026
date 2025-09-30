@@ -53,6 +53,11 @@ HTML implementation of the calculator.
   <div class="calculator-container">
       <!--result-->
       <div class="calculator-output" id="output">0</div>
+      <!--row 0-->
+      <div class="calculator-clear">A/C</div>
+      <div class="calculator-operation">%</div>
+      <div class="calculator-operation">∓</div>
+      <div class="calculator-operation">/</div>
       <!--row 1-->
       <div class="calculator-number">1</div>
       <div class="calculator-number">2</div>
@@ -69,7 +74,7 @@ HTML implementation of the calculator.
       <div class="calculator-number">9</div>
       <div class="calculator-operation">*</div>
       <!--row 4-->
-      <div class="calculator-clear">A/C</div>
+      <div class="calculator-operation">Binary</div>
       <div class="calculator-number">0</div>
       <div class="calculator-number">.</div>
       <div class="calculator-equals">=</div>
