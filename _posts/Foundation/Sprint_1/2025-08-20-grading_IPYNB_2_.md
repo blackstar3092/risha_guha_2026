@@ -22,7 +22,7 @@ comments: True
 <img src="{{ site.baseurl }}/images/00_rg_imgs/sprint1/grade2.png" alt="Grading Issue 2">
 
 
-## Final Retrospective Review: 9/12/2025
+## Final Retrospective Review: 9/24/2025
 
 [GitHub Issue](https://github.com/blackstar3092/risha_guha_2026/issues/1)
 

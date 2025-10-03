@@ -54,7 +54,8 @@ hide: true
     <details class="glass-accordion">
       <summary>Sprint 2</summary>
       <ul class="link-list">
-        <li><em>Coming soon…</em></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_1">Intro to Algorithms and Programs</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_2">Variables and Data Types</a></li>
       </ul>
     </details>
   </section>
