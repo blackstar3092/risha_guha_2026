@@ -56,6 +56,9 @@ hide: true
       <ul class="link-list">
         <li><a href="{{site.baseurl}}/csa/unit_01/1_1">Intro to Algorithms and Programs</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_2">Variables and Data Types</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_5">Data Casting</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_6">Operators</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_8">APIs</a></li>
       </ul>
     </details>
   </section>
