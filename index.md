@@ -54,11 +54,13 @@ hide: true
     <details class="glass-accordion">
       <summary>Sprint 2</summary>
       <ul class="link-list">
-        <li><a href="{{site.baseurl}}/csa/unit_01/1_1">Intro to Algorithms and Programs</a></li>
-        <li><a href="{{site.baseurl}}/csa/unit_01/1_2">Variables and Data Types</a></li>
-        <li><a href="{{site.baseurl}}/csa/unit_01/1_5">Data Casting</a></li>
-        <li><a href="{{site.baseurl}}/csa/unit_01/1_6">Operators</a></li>
-        <li><a href="{{site.baseurl}}/csa/unit_01/1_8">APIs</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_1">1.1 Intro to Algorithms and Programs</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_2">1.2 Variables and Data Types</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_5">1.5 Data Casting</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_6">1.6 Compound Assignment Operators</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_7/homework">1.7 APIs and Libraries</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_8">1.8 Documentation</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_9">1.9 Method Signatures</a></li>
       </ul>
     </details>
   </section>
