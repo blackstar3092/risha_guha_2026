@@ -57,10 +57,15 @@ hide: true
         <li><a href="{{site.baseurl}}/csa/unit_01/1_1">1.1 Intro to Algorithms and Programs</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_2">1.2 Variables and Data Types</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_5">1.5 Data Casting</a></li>
-        <li><a href="{{site.baseurl}}/csa/unit_01/1_6">1.6 Compound Assignment Operators</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_6_hw">1.6 Compound Assignment Operators</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_7/homework">1.7 APIs and Libraries</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_8">1.8 Documentation</a></li>
-        <li><a href="{{site.baseurl}}/csa/unit_01/1_9">1.9 Method Signatures</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_9_hw">1.9 Method Signatures</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_10/homework">1.10 Calling Class Methods</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_11">1.11 Math Class</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_12">1.12 Classes and Objects</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_13/homework">1.13 Object Creation and Storage</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_14">1.14 Creating Instance Methods</a></li>
       </ul>
     </details>
   </section>
