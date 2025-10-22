@@ -62,7 +62,7 @@ hide: true
         <li><a href="{{site.baseurl}}/csa/unit_01/1_8">1.8 Documentation</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_9_hw">1.9 Method Signatures</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_10/homework">1.10 Calling Class Methods</a></li>
-        <li><a href="{{site.baseurl}}/csa/unit_01/1_11">1.11 Math Class</a></li>
+        <li><a href="{{site.baseurl}}/csa/unit_01/1_11_hw">1.11 Math Class</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_12/homework">1.12 Classes and Objects</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_13/homework">1.13 Object Creation and Storage</a></li>
         <li><a href="{{site.baseurl}}/csa/unit_01/1_14">1.14 Creating Instance Methods</a></li>
