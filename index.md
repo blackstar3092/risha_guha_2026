@@ -68,6 +68,14 @@ hide: true
         <li><a href="{{site.baseurl}}/csa/unit_01/1_14">1.14 Creating Instance Methods</a></li>
       </ul>
     </details>
+    <details class="glass-accordion">
+      <summary>Sprint 3</summary>
+      <ul class="link-list">
+        <li><a href="{{site.baseurl}}/sprint/3/final">Final Retrospective</a></li>
+        <li><a href="{{site.baseurl}}/sprint/3/mc">AP MCQ Review</a></li>
+        <li><a href="{{site.baseurl}}/sprint/3/project">Project Learnings and Future Directions</a></li>
+      </ul>
+    </details>    
   </section>
 </div>
 
