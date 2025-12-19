@@ -14,7 +14,7 @@ comments: true
         <p>Through this panel, I learned about the various applications of computer science in different STEM majors, and I found the panelists' perspectives of how CS classes have impacted their lives to be fascinating. I now know a lot more about the college application process, as well as how to write successful applications and how to explain all of the projects I have created in a portfolio website of my choosing. I am inspired to reach out to other institutes regarding ways to create new and cutting-edge programs. Finally, I learned about the importance of having fun no matter what it is you're doing, which is a lesson that applies to my CS journey as well.</p>
     </div>
     <div class="image-content">
-        <img src="{{ site.baseurl }}/images/00_rg_imgs/sprint4/cspanel.jpg" alt="CS Panel Event">
+        <img src="{{ site.baseurl }}/images/00_rg_imgs/sprint4/cspanel.JPG" alt="CS Panel Event">
     </div>
 </div>
 
