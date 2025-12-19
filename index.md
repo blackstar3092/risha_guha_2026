@@ -76,6 +76,12 @@ hide: true
         <li><a href="{{site.baseurl}}/sprint/3/project">Project Learnings and Future Directions</a></li>
       </ul>
     </details>    
+    <details class="glass-accordion">
+      <summary>Sprint 4 & 5</summary>
+      <ul class="link-list">
+        <li><a href="{{site.baseurl}}/sprint/4/panel">Girls in CS Panel</a></li>
+      </ul>
+    </details>    
   </section>
 </div>
 
