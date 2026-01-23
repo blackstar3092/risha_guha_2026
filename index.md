@@ -77,9 +77,10 @@ hide: true
       </ul>
     </details>    
     <details class="glass-accordion">
-      <summary>Sprint 4 & 5</summary>
+      <summary>Sprints 4 & 5</summary>
       <ul class="link-list">
         <li><a href="{{site.baseurl}}/sprint/4/panel">Girls in CS Panel</a></li>
+        <li><a href="{{site.baseurl}}/sprint/4/2024-2">2024 FRQ #2</a></li>
       </ul>
     </details>    
   </section>
