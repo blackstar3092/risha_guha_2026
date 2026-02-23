@@ -81,6 +81,8 @@ hide: true
       <ul class="link-list">
         <li><a href="{{site.baseurl}}/sprint/4/panel">Girls in CS Panel</a></li>
         <li><a href="{{site.baseurl}}/sprint/4/2024-2">2024 FRQ #2</a></li>
+        <li><a href="{{site.baseurl}}/sprint/5/final">Tri 2 Final Retrospective</a></li>
+        <li><a href="{{site.baseurl}}/sprint/5/mc-fr">AP MC and FRQ Reviews</a></li>
       </ul>
     </details>    
   </section>
