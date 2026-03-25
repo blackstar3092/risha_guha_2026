@@ -2,6 +2,7 @@
 layout: base
 title: I'm Risha Guha
 hide: true
+show_reading_time: false
 ---
 
 <img src="{{ site.baseurl }}/images/00_rg_imgs/home.png" alt="Home">
