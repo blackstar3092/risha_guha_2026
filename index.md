@@ -85,7 +85,13 @@ show_reading_time: false
         <li><a href="{{site.baseurl}}/sprint/5/final">Tri 2 Final Retrospective</a></li>
         <li><a href="{{site.baseurl}}/sprint/5/mc-fr">AP MC and FRQ Reviews</a></li>
       </ul>
-    </details>    
+    </details>
+    <details class="glass-accordion">
+      <summary>Sprints 6 - 9 </summary>
+      <ul class="link-list">
+        <li><a href="{{site.baseurl}}/sprint/9/frqreview">FRQ Learnings So Far</a></li>
+      </ul>
+    </details>
   </section>
 </div>
 
