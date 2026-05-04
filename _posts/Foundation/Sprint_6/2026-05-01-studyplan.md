@@ -8,248 +8,89 @@ toc: true
 comments: true
 ---
 
-**Schedule: April 29 – May 14**  
-**Objective:** Systematic review of all AP CSA content, completion of all progress checks, and full-length practice exams under timed conditions.
+**Date range:** April 29 to May 14  
+**Purpose:** Complete AP review materials, daily review videos, 17 progress checks, and the 2023, 2024, and 2025 practice tests.
 
 ---
 
-## Structure Overview
+## Completion Dashboard
 
-- **Daily Components**
-  - Review AP materials (content consolidation)
-  - Watch daily review videos (concept reinforcement)
-  - Complete assigned progress checks (application)
-  - Practice exam work (assessment)
-
-- **Assessment Targets**
-  - 17 Progress Checks (distributed across units)
-  - 3 Full Practice Exams (2023, 2024, 2025)
+<progress value="0" max="17"></progress> Progress Checks: 0 of 17  
+<progress value="0" max="3"></progress> Practice Tests: 0 of 3  
+<progress value="0" max="16"></progress> Study Days: 0 of 16  
 
 ---
 
-## Progress Tracking
+## Daily Requirements
 
-- [ ] Review Materials Completed  
-- [ ] All Videos Watched  
-- [ ] 17/17 Progress Checks Completed  
-- [ ] 3/3 Practice Exams Completed  
+Each day should include:
 
----
-
-## Week 1: Foundation and Unit Coverage (April 29 – May 5)
-
-### April 29
-- Review: Unit 1 (Primitive Types)
-- Videos: Daily review for Unit 1
-- Progress Checks: 1.1, 1.2  
-
-<details>
-<summary>Focus Notes</summary>
-
-- Data types: int, double, boolean
-- Casting and overflow behavior
-- Operator precedence
-
-</details>
+- Reading AP review material
+- Watching the assigned daily review video
+- Completing the assigned progress check or practice assessment
+- Logging errors and corrections
 
 ---
 
-### April 30
-- Review: Unit 2 (Using Objects)
-- Videos: Unit 2 review
-- Progress Checks: 2.1, 2.2  
+## Interactive Study Log
 
-<details>
-<summary>Focus Notes</summary>
-
-- String methods
-- Object instantiation
-- Method calls and parameters
-
-</details>
-
----
-
-### May 1
-- Review: Unit 3 (Boolean Expressions)
-- Videos: Unit 3 review
-- Progress Checks: 3.1, 3.2  
-
-<details>
-<summary>Focus Notes</summary>
-
-- Logical operators
-- Short circuit evaluation
-- De Morgan’s laws
-
-</details>
+| Date | Primary Task | Assignment | Status |
+|---|---|---|---|
+| April 29 | Unit 1 review | Read Unit 1 material, watch Unit 1 video, complete Progress Checks 1.1 and 1.2 | <input type="checkbox"> Complete |
+| April 30 | Unit 2 review | Read Unit 2 material, watch Unit 2 video, complete Progress Checks 2.1 and 2.2 | <input type="checkbox"> Complete |
+| May 1 | Unit 3 review | Read Unit 3 material, watch Unit 3 video, complete Progress Checks 3.1 and 3.2 | <input type="checkbox"> Complete |
+| May 2 | Unit 4 review | Read Unit 4 material, watch Unit 4 video, complete Progress Checks 4.1 and 4.2 | <input type="checkbox"> Complete |
+| May 3 | Unit 4 continuation | Review iteration errors, rewatch difficult sections, complete Progress Checks 4.3 and 4.4 | <input type="checkbox"> Complete |
+| May 4 | Unit 4 completion | Finish Unit 4 review, complete Progress Check 4.5, correct all Unit 4 mistakes | <input type="checkbox"> Complete |
+| May 5 | Unit 5 review | Read Unit 5 material, watch Unit 5 video, complete Progress Checks 5.1 and 5.2 | <input type="checkbox"> Complete |
+| May 6 | Unit 6 review | Read Unit 6 material, watch Unit 6 video, complete Progress Checks 6.1 and 6.2 | <input type="checkbox"> Complete |
+| May 7 | Unit 7 review | Read Unit 7 material, watch Unit 7 video, complete Progress Checks 7.1 and 7.2 | <input type="checkbox"> Complete |
+| May 8 | Unit 8 review | Read Unit 8 material, watch Unit 8 video, complete Progress Checks 8.1 and 8.2 | <input type="checkbox"> Complete |
+| May 9 | Unit 9 review | Read Unit 9 material, watch Unit 9 video, complete Progress Checks 9.1 and 9.2 | <input type="checkbox"> Complete |
+| May 10 | Unit 10 review | Read Unit 10 material, watch Unit 10 video, complete Progress Checks 10.1 and 10.2 | <input type="checkbox"> Complete |
+| May 11 | 2023 practice test | Complete the full 2023 practice test under timed conditions | <input type="checkbox"> Complete |
+| May 12 | 2024 practice test | Complete the full 2024 practice test under timed conditions | <input type="checkbox"> Complete |
+| May 13 | 2025 practice test | Complete the full 2025 practice test under timed conditions | <input type="checkbox"> Complete |
+| May 14 | Final review | Review missed concepts, rewatch selected videos, redo missed questions | <input type="checkbox"> Complete |
 
 ---
 
-### May 2
-- Review: Unit 4 (Iteration)
-- Videos: Unit 4 review
-- Progress Checks: 4.1, 4.2  
+## Unit Review Controls
 
-<details>
-<summary>Focus Notes</summary>
+Use the sliders to rate confidence after each unit.
 
-- for loops vs while loops
-- Loop invariants
-- Off-by-one errors
-
-</details>
-
----
-
-### May 3
-- Review: Unit 4 continued
-- Videos: Unit 4 continuation
-- Progress Checks: 4.3, 4.4  
+| Unit | Topic | Confidence |
+|---|---|---|
+| Unit 1 | Primitive Types | <input type="range" min="1" max="5"> |
+| Unit 2 | Using Objects | <input type="range" min="1" max="5"> |
+| Unit 3 | Boolean Expressions and if Statements | <input type="range" min="1" max="5"> |
+| Unit 4 | Iteration | <input type="range" min="1" max="5"> |
+| Unit 5 | Writing Classes | <input type="range" min="1" max="5"> |
+| Unit 6 | Arrays | <input type="range" min="1" max="5"> |
+| Unit 7 | ArrayList | <input type="range" min="1" max="5"> |
+| Unit 8 | 2D Arrays | <input type="range" min="1" max="5"> |
+| Unit 9 | Inheritance | <input type="range" min="1" max="5"> |
+| Unit 10 | Recursion | <input type="range" min="1" max="5"> |
 
 ---
 
-### May 4
-- Review: Unit 4 completion
-- Videos: Unit 4 wrap-up
-- Progress Check: 4.5  
+## Practice Test Review
+
+| Test | MC Score | FRQ Score | Main Error Pattern | Correction Plan |
+|---|---:|---:|---|---|
+| 2023 Practice Test | ___ / 40 | ___ / 36 |  |  |
+| 2024 Practice Test | ___ / 40 | ___ / 36 |  |  |
+| 2025 Practice Test | ___ / 40 | ___ / 36 |  |  |
 
 ---
 
-### May 5
-- Review: Unit 5 (Writing Classes)
-- Videos: Unit 5 review
-- Progress Checks: 5.1, 5.2  
+## Final Readiness Checklist
 
-<details>
-<summary>Focus Notes</summary>
-
-- Class structure
-- Constructors
-- Encapsulation
-
-</details>
-
----
-
-## Week 2: Advanced Topics and Integration (May 6 – May 10)
-
-### May 6
-- Review: Unit 6 (Arrays)
-- Videos: Unit 6 review
-- Progress Checks: 6.1, 6.2  
-
----
-
-### May 7
-- Review: Unit 7 (ArrayList)
-- Videos: Unit 7 review
-- Progress Checks: 7.1, 7.2  
-
----
-
-### May 8
-- Review: Unit 8 (2D Arrays)
-- Videos: Unit 8 review
-- Progress Checks: 8.1, 8.2  
-
----
-
-### May 9
-- Review: Unit 9 (Inheritance)
-- Videos: Unit 9 review
-- Progress Checks: 9.1, 9.2  
-
----
-
-### May 10
-- Review: Unit 10 (Recursion)
-- Videos: Unit 10 review
-- Progress Checks: 10.1, 10.2  
-
-<details>
-<summary>Focus Notes</summary>
-
-- Base case vs recursive case
-- Stack behavior
-- Tracing recursive calls
-
-</details>
-
----
-
-## Week 3: Practice Exams and Final Consolidation (May 11 – May 14)
-
-### May 11
-- Full Practice Test: 2023 Exam (Timed)
-- Review incorrect answers in detail  
-
-<details>
-<summary>Post-Test Analysis</summary>
-
-- Identify recurring errors
-- Categorize by topic
-- Write corrections
-
-</details>
-
----
-
-### May 12
-- Full Practice Test: 2024 Exam (Timed)
-- Review incorrect answers  
-
----
-
-### May 13
-- Full Practice Test: 2025 Exam (Timed)
-- Review incorrect answers  
-
----
-
-### May 14
-- Final Review Day
-  - Revisit weakest topics
-  - Rewatch key videos
-  - Light practice problems only  
-
-<details>
-<summary>Final Readiness Checklist</summary>
-
-- Can trace any loop confidently
-- Can write class structures without reference
-- Understands array and ArrayList manipulation
-- Comfortable with FRQ structure
-
-</details>
-
----
-
-## Daily Completion Log
-
-| Date   | Completed | Notes |
-|--------|----------|------|
-| 4/29   | [ ]      |      |
-| 4/30   | [ ]      |      |
-| 5/1    | [ ]      |      |
-| 5/2    | [ ]      |      |
-| 5/3    | [ ]      |      |
-| 5/4    | [ ]      |      |
-| 5/5    | [ ]      |      |
-| 5/6    | [ ]      |      |
-| 5/7    | [ ]      |      |
-| 5/8    | [ ]      |      |
-| 5/9    | [ ]      |      |
-| 5/10   | [ ]      |      |
-| 5/11   | [ ]      |      |
-| 5/12   | [ ]      |      |
-| 5/13   | [ ]      |      |
-| 5/14   | [ ]      |      |
-
----
-
-## Notes
-
-- Maintain strict timing discipline during practice exams
-- Prioritize error analysis over volume of work
-- Avoid passive review without active recall
+<input type="checkbox"> I can trace loops accurately.  
+<input type="checkbox"> I can write classes with constructors and methods.  
+<input type="checkbox"> I can identify object references and method calls.  
+<input type="checkbox"> I can manipulate arrays and ArrayLists.  
+<input type="checkbox"> I can trace recursive calls.  
+<input type="checkbox"> I can complete FRQs within the time limit.  
+<input type="checkbox"> I have reviewed every missed progress check question.  
+<input type="checkbox"> I have reviewed every missed practice test question.  
