@@ -13,14 +13,6 @@ comments: true
 
 ---
 
-## Completion Dashboard
-
-<progress value="0" max="17"></progress> Progress Checks: 0 of 17  
-<progress value="0" max="3"></progress> Practice Tests: 0 of 3  
-<progress value="0" max="16"></progress> Study Days: 0 of 16  
-
----
-
 ## Daily Requirements
 
 Each day should include:
@@ -76,12 +68,45 @@ Use the sliders to rate confidence after each unit.
 
 ## Practice Test Review
 
-| Practice Test | MC Score | FRQ Score | Main Error Pattern | Correction Plan | Complete |
-|---|---:|---:|---|---|---|
-| 2023 Practice Test | <input type="number" min="0" max="40" placeholder="/40" style="width: 70px;"> | <input type="number" min="0" max="36" placeholder="/36" style="width: 70px;"> | <input type="text" placeholder="Topic or pattern" style="width: 160px;"> | <input type="text" placeholder="Specific correction step" style="width: 220px;"> | <input type="checkbox"> |
-| 2024 Practice Test | <input type="number" min="0" max="40" placeholder="/40" style="width: 70px;"> | <input type="number" min="0" max="36" placeholder="/36" style="width: 70px;"> | <input type="text" placeholder="Topic or pattern" style="width: 160px;"> | <input type="text" placeholder="Specific correction step" style="width: 220px;"> | <input type="checkbox"> |
-| 2025 Practice Test | <input type="number" min="0" max="40" placeholder="/40" style="width: 70px;"> | <input type="number" min="0" max="36" placeholder="/36" style="width: 70px;"> | <input type="text" placeholder="Topic or pattern" style="width: 160px;"> | <input type="text" placeholder="Specific correction step" style="width: 220px;"> | <input type="checkbox"> |
----
+
+<table>
+  <thead>
+    <tr>
+      <th>Practice Test</th>
+      <th>MC Score</th>
+      <th>FRQ Score</th>
+      <th>Main Error Pattern</th>
+      <th>Correction Plan</th>
+      <th>Complete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023 Practice Test</td>
+      <td><input type="number" min="0" max="40" placeholder="/40"></td>
+      <td><input type="number" min="0" max="36" placeholder="/36"></td>
+      <td><input type="text" placeholder="Topic or pattern"></td>
+      <td><input type="text" placeholder="Correction step"></td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <td>2024 Practice Test</td>
+      <td><input type="number" min="0" max="40" placeholder="/40"></td>
+      <td><input type="number" min="0" max="36" placeholder="/36"></td>
+      <td><input type="text" placeholder="Topic or pattern"></td>
+      <td><input type="text" placeholder="Correction step"></td>
+      <td><input type="checkbox"></td>
+    </tr>
+    <tr>
+      <td>2025 Practice Test</td>
+      <td><input type="number" min="0" max="40" placeholder="/40"></td>
+      <td><input type="number" min="0" max="36" placeholder="/36"></td>
+      <td><input type="text" placeholder="Topic or pattern"></td>
+      <td><input type="text" placeholder="Correction step"></td>
+      <td><input type="checkbox"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Final Readiness Checklist
 
