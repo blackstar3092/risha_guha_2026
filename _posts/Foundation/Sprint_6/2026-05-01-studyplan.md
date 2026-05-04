@@ -76,12 +76,11 @@ Use the sliders to rate confidence after each unit.
 
 ## Practice Test Review
 
-| Test | MC Score | FRQ Score | Main Error Pattern | Correction Plan |
-|---|---:|---:|---|---|
-| 2023 Practice Test | ___ / 40 | ___ / 36 |  |  |
-| 2024 Practice Test | ___ / 40 | ___ / 36 |  |  |
-| 2025 Practice Test | ___ / 40 | ___ / 36 |  |  |
-
+| Practice Test | MC Score | FRQ Score | Main Error Pattern | Correction Plan | Complete |
+|---|---:|---:|---|---|---|
+| 2023 Practice Test | <input type="number" min="0" max="40" placeholder="/40" style="width: 70px;"> | <input type="number" min="0" max="36" placeholder="/36" style="width: 70px;"> | <input type="text" placeholder="Topic or pattern" style="width: 160px;"> | <input type="text" placeholder="Specific correction step" style="width: 220px;"> | <input type="checkbox"> |
+| 2024 Practice Test | <input type="number" min="0" max="40" placeholder="/40" style="width: 70px;"> | <input type="number" min="0" max="36" placeholder="/36" style="width: 70px;"> | <input type="text" placeholder="Topic or pattern" style="width: 160px;"> | <input type="text" placeholder="Specific correction step" style="width: 220px;"> | <input type="checkbox"> |
+| 2025 Practice Test | <input type="number" min="0" max="40" placeholder="/40" style="width: 70px;"> | <input type="number" min="0" max="36" placeholder="/36" style="width: 70px;"> | <input type="text" placeholder="Topic or pattern" style="width: 160px;"> | <input type="text" placeholder="Specific correction step" style="width: 220px;"> | <input type="checkbox"> |
 ---
 
 ## Final Readiness Checklist
